@@ -1,0 +1,202 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    
+}
+
+
+/*ESTILOS NAVBAR*/
+nav{
+    background: rgb(196, 255, 204);
+    height: 80px;
+    width: 100%;
+}
+.enlace{
+    position: absolute;
+    padding: 20px 50px;
+}
+.logo{
+    height: 40px;
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+nav ul li a{
+    color: #242222;
+    font-size: 18px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+li a.active, li a:hover{
+    background: #009013;
+    color: #fff;
+    transition: .5s;
+}
+.checkbtn{
+    font-size: 30px;
+    color: #fff;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+#check{
+    display: none;
+}
+section{
+    
+    background-color: rgb(196, 255, 204);
+    background-size: cover;
+    padding: 30px;
+    
+}
+@media (max-width: 952px) {
+    .enlace{
+        padding-left: 20px;
+    }
+    nav ul li a{
+        font-size: 16px;
+    }
+}
+@media (max-width: 858px) {
+    .checkbtn{
+        display: block;
+    }
+    ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #2c3e50;
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+    }
+    nav ul li{
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+    nav ul li a{
+        font-size: 20px;
+    }
+    li a:hover, li a.active{
+        background: none;
+        color: red;
+    }
+    #check:checked ~ ul{
+        left: 0;
+    }
+}
+/*FIN DE ESTILOS NAVBAR*/
+
+/*ESTILOS*/
+
+
+
+
+section{
+    padding: 50px;
+}
+
+.tituloNosotros{
+    font-size: 100px;
+}
+
+.textoNosotros{
+    font-size: 25px;
+    text-align: justify;
+}
+
+.imagenesInf{
+    text-align: center;
+    
+}
+
+.img1{
+    width: 30%;
+    height: 30%;
+    margin-right: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.img2{
+    width: 40%;
+    height: 40%;
+    margin-left: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+
+.map-container {
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+}
+.map-container iframe {
+    left:0;
+    top:0;
+    height:50%;
+    width:50%;
+    position:absolute;
+}
+
+
+.containertargeta {
+    display: flex;
+    justify-content: center;    /* Alineación horizontal al centro */
+    align-items: center;        /* Alineación vertical al centro */
+    height: 100vh;
+}
+
+
+.card-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    width: 100%;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 0px;
+    width: 300px;
+    text-align: center;
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card-image {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.card-title {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.card-description {
+    font-size: 1em;
+    color: #777;
+}
