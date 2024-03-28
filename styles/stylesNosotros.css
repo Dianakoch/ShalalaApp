@@ -19,7 +19,12 @@ nav{
     padding: 20px 50px;
 }
 .logo{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: absolute;
+    padding: 20px 50px;
     height: 40px;
+    font-size: 30px;
+    color: #009013;
 }
 nav ul{
     float: right;

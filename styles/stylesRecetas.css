@@ -21,7 +21,12 @@ nav{
 }
 
 .logo{
-    height: 40px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  position: absolute;
+  padding: 20px 50px;
+  height: 40px;
+  font-size: 30px;
+  color: #ffffff;
 }
 
 nav ul{
@@ -109,7 +114,7 @@ li a.active, li a:hover{
 
 
 body {
-    background-image: url("/ShalalaApp/recursos/fondo\ recetas.jpg");
+    background-image: url("/recursos/fondo\ recetas.jpg");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;

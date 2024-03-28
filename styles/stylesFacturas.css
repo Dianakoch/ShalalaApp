@@ -7,7 +7,7 @@
 }
 
 body {
-    background-image: url("/ShalalaApp/recursos/fondofactura.jpeg");
+    background-image: url("/recursos/fondofactura.jpeg");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -27,7 +27,12 @@ nav{
 }
 
 .logo{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: absolute;
+    padding: 20px 50px;
     height: 40px;
+    font-size: 30px;
+    color: #ffffff;
 }
 
 nav ul{
@@ -118,7 +123,7 @@ section{
     margin-top: 40px;
 }
 p{
-    font-size: 60px;
+    font-size: 70px;
     color: #ffffff;
     text-align: center;
 }
@@ -135,22 +140,24 @@ p{
     display: block;
     margin-bottom: 5px;
     color: #fff;
+    font-size: 20px;
   }
   
   input,
   select {
     width: 100%;
     padding: 5px;
-    border: 1px solid #ccc;
+    border: 1px solid #000000;
     
   }
   
   button {
     margin-top: 10px;
     padding: 5px 10px;
-    border: 1px solid #ccc;
-    background-color: #000;
+    border: 1px solid #009013;
+    background-color: #009013;
     color: #fff;
+    font-size: 15px;
     
   }
 

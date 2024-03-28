@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>Nosotros</title>
-    <link rel="stylesheet" href="/ShalalaApp/styles/stylesFacturas.css">
+    <link rel="stylesheet" href="/styles/stylesFacturas.css">
     <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
 
   </head>
@@ -18,42 +18,46 @@
             <i class="fas fa-bars"></i>
         </label>
 
-        <a href="#" class="enlace">
             <h4 class="logo">SHALALA.CO</h4>
-        </a>
+        
 
         <ul>
-            <li><a href="/ShalalaApp/body/index.html">Nosotros</a></li>
-            <li><a href="/ShalalaApp/body/Marcas.html">Nuestras Marcas</a></li>
-            <li><a href="/ShalalaApp/body/catering.html">Catering</a></li>
-            <li><a href="/ShalalaApp/body/recetas.html">Nuestras Recetas</a></li>
-            <li><a class="active" href="/ShalalaApp/body/facturas.html">Contacto</a></li>
+            <li><a href="/body/index.html">Nosotros</a></li>
+            <li><a href="/body/Marcas.html">Nuestras Marcas</a></li>
+            <li><a href="/body/catering.html">Catering</a></li>
+            <li><a href="/body/recetas.html">Nuestras Recetas</a></li>
+            <li><a class="active" href="/body/facturas.html">Contacto</a></li>
         </ul>
     </nav>
 
 
     <section>
 
-      <form action="#" style="background-color: rgba(35, 78, 67, 0.5);">
+      <form action="https://formsubmit.co/ortizchavezdianakaren@gmail.com" method="POST" style="background-color: rgba(55, 121, 77, 0.418);">
         <p>CONTACTANOS</p>
         <br>
         <br>
 
 
         <label for="nombre">Nombre:</label>
-        <input type="text" id="nombre" name="nombre" placeholder="Ingrese su nombre">
+        <input type="text" id="nombre" name="name" placeholder="Ingrese su nombre">
         <br>
+        <br>
+
         <label for="correo">Correo electrónico:</label>
-        <input type="email" id="correo" name="correo" placeholder="Ingrese su correo electrónico">
+        <input type="email" id="correo" name="email" placeholder="Ingrese su correo electrónico">
         
         <br>
         <br>
         <div class="elem-group"> 
           <label for="message">Solicitud</label> 
-          <textarea id="message" name="visitor_message" placeholder="Escribe tu Solicitud aquí: Factura, Cotizacion, ETC." required></textarea> 
+          <textarea id="message" name="subject" placeholder="Escribe tu Solicitud aquí: Factura, Cotizacion, ETC." required></textarea> 
         </div> 
 
         <button type="submit">Enviar correo</button>
+
+        <!--
+        <input type="hidden" name="_next" value="http://">-->
       </form>
     </section>
 
