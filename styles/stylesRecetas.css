@@ -23,11 +23,18 @@ nav{
 .logo{
   font-family: Georgia, 'Times New Roman', Times, serif;
   position: absolute;
-  padding: 20px 50px;
+  padding: 10px 50px;
   height: 40px;
-  font-size: 30px;
+  font-size: 20px;
   color: #ffffff;
 }
+
+.imglogo{
+  width: 60px;
+  height: 50px;
+  
+}
+
 
 nav ul{
     float: right;
@@ -178,5 +185,91 @@ border-width: 5px;
   
   .section h2 {
     margin-top: 0;
+  }
+  
+
+  #pagina {
+    margin-top: 50px;
+    position: relative;
+    min-height: 100%;
+  }
+
+  
+  .pie {
+    height:50px;
+    line-height:50px;
+    background:#009013;
+    color:white;
+    text-align:center;
+    position: absolute;
+    bottom:0;
+    left:0;
+    width:100%;
+  }
+
+  
+  .pie .grupo-1{
+    background-color: #009013;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap:50px;
+    padding: 45px 0px;
+  }
+  .pie .grupo-1 .box figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .pie .grupo-1 .box figure img{
+    width: 250px;
+  }
+  .pie .grupo-1 .box h2{
+    color: #ffffff;
+    margin-bottom: 25px;
+    font-size: 20px;
+  }
+  .pie .grupo-1 .box p{
+    color: #ffffff;
+    margin-bottom: 10px;
+  }
+  .pie .grupo-1 .red-social a{
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: #ffffff;
+    margin-right: 10px;
+    background-color: #0d2033;
+    text-align: center;
+    transition: all 300ms ease;
+  }
+  .pie .grupo-1 .red-social a:hover{
+    color: aqua;
+  }
+  
+  @media screen and (max-width:800px){
+    .pie .grupo-1{
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap:30px;
+        padding: 35px 0px;
+    }
+  }
+  
+  .map-container {
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+  }
+  .map-container iframe {
+    left:0;
+    top:0;
+    height:80%;
+    width:80%;
+    margin-left: 10%;
+    position:absolute;
   }
   
